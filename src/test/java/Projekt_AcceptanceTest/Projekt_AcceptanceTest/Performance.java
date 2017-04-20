@@ -11,11 +11,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 //This test case will be used to test if the Web site will be loaded within 12 seconds
-public class TC001  {
+public class Performance  {
 	//Declaring Static variables for the test case
 	private static WebDriver driver;
 	public static Logger LOG;
 	private static String baseURL="https://www.br.se";
+	
 	
 	//Before class will be executed before the actual test 
 	@BeforeClass
@@ -23,18 +24,19 @@ public class TC001  {
 		
 		//Defining firefoxDriver and Logger
 		driver= new FirefoxDriver();
-		LOG = Logger.getLogger(TC001.class.getName());
+		LOG = Logger.getLogger(Performance.class.getName());
 		
 		
 	}
 	//The actual test
-	@Test
+	@Test (timeout = 15000)
 	public void testLoadTime(){
 		
 		//Declaring long variable to hold the start time in Milliseconds
 		long start = System.currentTimeMillis();
 		//actual test to load the page
 		driver.get(baseURL);
+		
 		//Declaring long variable to have the finish time
 		long finish = System.currentTimeMillis();
 		
