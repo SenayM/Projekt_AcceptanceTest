@@ -1,11 +1,13 @@
 package Projekt_AcceptanceTest.Projekt_AcceptanceTest;
 
-import java.util.List;
+import java.util.logging.Logger;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Hello world!
@@ -13,46 +15,44 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class App 
 {
-	public static WebDriver driver;
+	private static WebDriver driver;
+	public static Logger LOG;
+	private static WebDriverWait wait;
+	private static String baseURL="https://www.br.se";
+
 	
     public static void main( String[] args )
     {
         
     	
-    	driver =new FirefoxDriver();
-		String result=null;
-    	
-		driver.get("http://the-internet.herokuapp.com/challenging_dom");
-		WebElement table= driver.findElement(By.className("large-10"));
-		
-		
-		WebElement tbody=table.findElement(By.tagName("tbody"));
-		List<WebElement> tr=tbody.findElements(By.tagName("tr"));
-		for(int i =0;i<tr.size();i++){
-			List<WebElement> td=tr.get(i).findElements(By.tagName("td"));
-			System.out.println("Row no "+ i +" Is : ");
+    	//Declaring Static variables for the test case
 			
-				for (int j=0;j<td.size();j++){
-					result=td.get(j).getText();
-					result=result.replace("edit delete","") ;
+		
+			
+			//Defining firefoxDriver and Logger
+			driver= new FirefoxDriver();
+			wait = new WebDriverWait(driver, 3);
+	    	
+			
+		//The actual test
+		
+		//loading the page
+			driver.get(baseURL);
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath( ".//*[@id='js-site-search-input']")));
+			//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(".//*[@id='content']/div[4]/div/div/ul/li[2]/div/a")));
+			WebElement searchBar = driver.findElement(By.xpath( ".//*[@id='js-site-search-input']"));
+	    	searchBar.sendKeys("ATLANTA");
+	    	try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}			
 				
-				System.out.print(result + "  ");
-				
-				}
-			System.out.print("\n");
-			
-			
-			//result=tr.get(i).getText();
-			//concatResult = result.replace("edit delete","") ;
-        	//System.out.println("Row no "+i+" is "+  concatResult);
-		}
 		
-	/*
-	 List<WebElement> td=tr.get(i).findElements(By.tagName("tr"));
-			for (int j=0;j<td.size();j++){
-			//System.out.println("Row no "+i+" is"+	td.get(j).getText());
-	*/
-		driver.close();
+		
+		//After class will be used to close the driver
+	
+			driver.close();
 			driver.quit();
     	 
     	

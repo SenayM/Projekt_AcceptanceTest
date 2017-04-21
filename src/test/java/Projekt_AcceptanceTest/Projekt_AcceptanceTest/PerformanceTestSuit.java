@@ -6,15 +6,20 @@ import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 //This test case will be used to test if the Web site will be loaded within 12 seconds
-public class Performance  {
+public class PerformanceTestSuit  {
 	//Declaring Static variables for the test case
 	private static WebDriver driver;
 	public static Logger LOG;
+	public static WebDriverWait wait;
 	private static String baseURL="https://www.br.se";
 	
 	
@@ -24,19 +29,22 @@ public class Performance  {
 		
 		//Defining firefoxDriver and Logger
 		driver= new FirefoxDriver();
-		LOG = Logger.getLogger(Performance.class.getName());
+		LOG = Logger.getLogger(PerformanceTestSuit.class.getName());
+		wait = new WebDriverWait(driver,12) ;
 		
 		
 	}
 	//The actual test
-	@Test (timeout = 15000)
-	public void testLoadTime(){
+	@Test (timeout = 12000)
+	public void testLoadTime_TC001(){
 		
 		//Declaring long variable to hold the start time in Milliseconds
 		long start = System.currentTimeMillis();
 		//actual test to load the page
 		driver.get(baseURL);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("frontpage-banner-img")));
 		
+		//System.out.println(result.getText());
 		//Declaring long variable to have the finish time
 		long finish = System.currentTimeMillis();
 		
@@ -61,7 +69,15 @@ public class Performance  {
 	@AfterClass
 	public static void closeBrowser(){
 		driver.close();
+		try{
+			Thread.sleep(2000);
+		}catch(InterruptedException e){
+			System.out.println(e.getStackTrace());
+		}
 		driver.quit();
+		
+		
+		
 	}
 
 

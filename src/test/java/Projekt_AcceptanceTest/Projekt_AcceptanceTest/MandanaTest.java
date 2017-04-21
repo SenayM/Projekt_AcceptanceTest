@@ -24,7 +24,7 @@ public class MandanaTest {
 			
 			//Defining firefoxDriver and Logger
 			driver= new FirefoxDriver();
-			LOG = Logger.getLogger(Performance.class.getName());
+			LOG = Logger.getLogger(PerformanceTestSuit.class.getName());
 			
 			
 		}
