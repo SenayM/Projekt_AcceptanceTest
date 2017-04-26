@@ -14,6 +14,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -39,7 +40,9 @@ public class FunctionalTestSuit {
 			public static void setupOnce(){
 				
 				//Defining firefoxDriver and Logger
-				driver= new FirefoxDriver();
+				//driver= new FirefoxDriver();
+				driver=new ChromeDriver();
+				
 				wait = new WebDriverWait(driver, 3);
 				longwait=new WebDriverWait(driver,6);
 				veryLongWait= new WebDriverWait (driver,9);
@@ -206,7 +209,7 @@ public class FunctionalTestSuit {
 			    	
 			     	
 			    	//Choosing wishlist to add
-			    	
+			    	Thread.sleep(2000);
 			    	longwait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@id='wishlist-overlay']/div[1]/div[3]/div/div/div[2]/span")));
 			    	WebElement chooseWishList = driver.findElement(By.xpath(".//*[@id='wishlist-overlay']/div[1]/div[3]/div/div/div[2]/span"));
 			    	chooseWishList.click();
@@ -216,6 +219,7 @@ public class FunctionalTestSuit {
 			    	longwait.until(ExpectedConditions.visibilityOfElementLocated(By.id("iconbar")));
 			    	WebElement wishList = driver.findElement(By.id("iconbar"));
 			    	WebElement wishListDiv= wishList.findElement(By.className("wishlist")); ;
+			    	Thread.sleep(2000);
 			    	wishListDiv.click();
 			    	
 			    	WebElement wishListDivDiv=wishListDiv.findElement(By.tagName("span"));

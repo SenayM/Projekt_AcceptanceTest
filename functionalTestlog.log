@@ -6,3 +6,115 @@ Apr 25, 2017 10:14:02 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.Functiona
 INFO: Test TC006 PASS
 Apr 25, 2017 10:14:38 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
 INFO: Test TC002 PASS
+Apr 26, 2017 3:38:04 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 3:38:13 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveProductFromCartTC003
+INFO: Test TC003 PASS
+Apr 26, 2017 3:39:07 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit addProductToWishlistTC005
+INFO: Test TC005 PASS
+Apr 26, 2017 3:39:40 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testverifySearchboxTC08
+INFO: Test Case TC008 PASS
+Apr 26, 2017 3:39:58 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_1 PASS
+Apr 26, 2017 3:39:58 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_2 FAIL
+Apr 26, 2017 3:40:04 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit checkAvailabilityOfContactEmailTC006
+INFO: Test TC006 PASS
+Apr 26, 2017 3:40:36 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 3:40:45 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveOrderForAmountlessThanOneTC004
+INFO: Test TC004 PASS
+Apr 26, 2017 3:41:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_1 Faktura Betalning Available PASS
+Apr 26, 2017 3:41:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_2 Card Payment is Available PASS
+Apr 26, 2017 3:41:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_3 BankTransfer Available PASS
+Apr 26, 2017 3:49:02 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 3:49:10 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveProductFromCartTC003
+INFO: Test TC003 PASS
+Apr 26, 2017 3:49:45 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit checkAvailabilityOfContactEmailTC006
+INFO: Test TC006 PASS
+Apr 26, 2017 3:50:18 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 4:00:54 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 4:01:03 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveProductFromCartTC003
+INFO: Test TC003 PASS
+Apr 26, 2017 4:01:42 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit checkAvailabilityOfContactEmailTC006
+INFO: Test TC006 PASS
+Apr 26, 2017 4:02:14 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 4:32:46 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 4:32:55 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveProductFromCartTC003
+INFO: Test TC003 PASS
+Apr 26, 2017 4:33:51 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit addProductToWishlistTC005
+INFO: Test TC005 PASS
+Apr 26, 2017 4:34:20 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testverifySearchboxTC08
+INFO: Test Case TC008 PASS
+Apr 26, 2017 4:34:37 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_1 PASS
+Apr 26, 2017 4:34:38 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_2 FAIL
+Apr 26, 2017 4:34:44 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit checkAvailabilityOfContactEmailTC006
+INFO: Test TC006 PASS
+Apr 26, 2017 4:35:36 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 4:35:44 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveOrderForAmountlessThanOneTC004
+INFO: Test TC004 PASS
+Apr 26, 2017 4:36:49 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_1 Faktura Betalning Available PASS
+Apr 26, 2017 4:36:49 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_2 Card Payment is Available PASS
+Apr 26, 2017 4:36:49 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_3 BankTransfer Available PASS
+Apr 26, 2017 4:52:46 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 4:52:54 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveProductFromCartTC003
+INFO: Test TC003 PASS
+Apr 26, 2017 4:54:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit addProductToWishlistTC005
+INFO: Test TC005 PASS
+Apr 26, 2017 4:55:24 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testverifySearchboxTC08
+INFO: Test Case TC008 PASS
+Apr 26, 2017 4:55:41 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_1 PASS
+Apr 26, 2017 4:55:41 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_2 FAIL
+Apr 26, 2017 4:55:54 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit checkAvailabilityOfContactEmailTC006
+INFO: Test TC006 PASS
+Apr 26, 2017 4:56:30 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 4:56:38 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveOrderForAmountlessThanOneTC004
+INFO: Test TC004 PASS
+Apr 26, 2017 4:57:57 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_1 Faktura Betalning Available PASS
+Apr 26, 2017 4:57:57 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_2 Card Payment is Available PASS
+Apr 26, 2017 4:57:57 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_3 BankTransfer Available PASS
+Apr 26, 2017 5:05:13 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 5:05:21 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveProductFromCartTC003
+INFO: Test TC003 PASS
+Apr 26, 2017 5:06:23 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit addProductToWishlistTC005
+INFO: Test TC005 PASS
+Apr 26, 2017 5:07:06 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testverifySearchboxTC08
+INFO: Test Case TC008 PASS
+Apr 26, 2017 5:07:28 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_1 PASS
+Apr 26, 2017 5:07:28 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testHittaButikTC10
+INFO: Test Case TC010_2 FAIL
+Apr 26, 2017 5:07:40 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit checkAvailabilityOfContactEmailTC006
+INFO: Test TC006 PASS
+Apr 26, 2017 5:08:22 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testAddProductsToCartTC002
+INFO: Test TC002 PASS
+Apr 26, 2017 5:08:31 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testRemoveOrderForAmountlessThanOneTC004
+INFO: Test TC004 PASS
+Apr 26, 2017 5:09:37 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_1 Faktura Betalning Available PASS
+Apr 26, 2017 5:09:37 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_2 Card Payment is Available PASS
+Apr 26, 2017 5:09:37 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.FunctionalTestSuit testPaymentOptionsTC009
+INFO: TC009_3 BankTransfer Available PASS

@@ -6,3 +6,53 @@ Apr 25, 2017 10:06:03 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.Performan
 INFO: Total Time for page load : 5.677 Seconds
 Apr 25, 2017 10:06:03 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
 INFO: Test Case TC001 PASS
+Apr 26, 2017 4:00:10 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load Start  : 1493215204720
+Apr 26, 2017 4:00:10 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load finish : 1493215210047
+Apr 26, 2017 4:00:10 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Total Time for page load : 5.327 Seconds
+Apr 26, 2017 4:00:10 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Test Case TC001 PASS
+Apr 26, 2017 4:03:10 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Loged in with email : E-postadress: birr5@yahoo.com
+Apr 26, 2017 4:03:10 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Test Case TC007 PASS
+Apr 26, 2017 4:30:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load Start  : 1493217039716
+Apr 26, 2017 4:30:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load finish : 1493217052846
+Apr 26, 2017 4:30:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Total Time for page load : 13.13 Seconds
+Apr 26, 2017 4:31:42 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load Start  : 1493217092005
+Apr 26, 2017 4:31:42 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load finish : 1493217102756
+Apr 26, 2017 4:31:42 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Total Time for page load : 10.751 Seconds
+Apr 26, 2017 4:31:42 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Test Case TC001 PASS
+Apr 26, 2017 4:37:35 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Loged in with email : E-postadress: birr5@yahoo.com
+Apr 26, 2017 4:37:35 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Test Case TC007 PASS
+Apr 26, 2017 4:51:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load Start  : 1493218299840
+Apr 26, 2017 4:51:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load finish : 1493218312396
+Apr 26, 2017 4:51:52 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Total Time for page load : 12.556 Seconds
+Apr 26, 2017 4:58:48 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Loged in with email : E-postadress: birr5@yahoo.com
+Apr 26, 2017 4:58:48 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Test Case TC007 PASS
+Apr 26, 2017 5:04:08 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load Start  : 1493219035227
+Apr 26, 2017 5:04:08 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Time for page load finish : 1493219048483
+Apr 26, 2017 5:04:08 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.PerformanceTestSuit testLoadTime_TC001
+INFO: Total Time for page load : 13.256 Seconds
+Apr 26, 2017 5:10:30 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Loged in with email : E-postadress: birr5@yahoo.com
+Apr 26, 2017 5:10:30 PM Projekt_AcceptanceTest.Projekt_AcceptanceTest.SecurityTestSuit testLoginTC007
+INFO: Test Case TC007 PASS
